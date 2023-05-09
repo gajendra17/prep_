@@ -5,11 +5,11 @@ module ass;
     bit [3:0] result=0;
   bit status;
   initial begin
-    multi dut(.b(b), .a(a), .multi(result));
+    multi dut(.b(b), .a(a), .opp(result));
   a=3'b111;
   b=3'b010;
    result =mul(3'b111,3'b010);
-  status=(multi==result);
+    status=(opp==result);
     $display ("result=%0d and ststus=%d",result,status);
   end
 endmodule //3
