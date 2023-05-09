@@ -3,14 +3,14 @@ module multi
 (
     input [3:0] a,b,
   output reg [4:0] multi,
-    input clk
+   // input clk
   );
   
   
-  always@(posedge clk)
-    begin
+  //always@(posedge clk)
+   // begin
       sum <= a * b;
-    end
+   // end
    
    
 endmodule
