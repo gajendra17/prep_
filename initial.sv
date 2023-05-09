@@ -3,7 +3,8 @@ module ass;
     return a*b;
   endfunction
     bit [3:0] result=0;
-  bit status,comp;
+  bit status;
+  bit [3:0] comp = 4'b1110;
     initial begin
       
       result =mul(3'b111,3'b010);
