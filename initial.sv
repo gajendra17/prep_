@@ -12,4 +12,4 @@ module ass;
   status=(multi==result);
     $display ("result=%0d and ststus=%d",result,status);
   end
-endmodule //2
+endmodule //3
