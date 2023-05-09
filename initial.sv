@@ -4,7 +4,7 @@ module ass;
   endfunction
     bit [3:0] result=0;
   bit status;
-  bit [3:0] comp = 4'b1110;
+ // bit [3:0] comp = 4'b1110;
     initial begin
       
       result =mul(3'b111,3'b010);
@@ -12,5 +12,12 @@ module ass;
       status=(comp==result);
       $display ("result=%0d and ststus=%d",result,status);
       
-    end 
+    end
+  
+  initial
+    multi dut (.b(b), .a(a), 
+  
+  
+  
+   begin
     endmodule //2
