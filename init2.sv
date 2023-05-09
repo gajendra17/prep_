@@ -2,14 +2,14 @@
 module multi
 (
     input [3:0] a,b,
-  output reg [4:0] multi,
+    output reg [4:0] opp,
    // input clk
   );
   
   
   //always@(posedge clk)
    // begin
-      sum <= a * b;
+      opp <= a * b;
    // end
    
    
